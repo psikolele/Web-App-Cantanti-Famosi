@@ -1,38 +1,38 @@
 import { Character } from './types';
 
-// NOTE: In a real scenario, you would import local images. 
-// For this demo, we use high-quality placeholders that match the requested vibes.
+// NOTE: Please ensure you save the provided images in your public folder with these filenames:
+// 1. angelina.png (Angelina Mango)
+// 2. ronaldo.png (Cristiano Ronaldo)
+// 3. geolier.png (Geolier)
+// 4. anna.png (Anna Pepe)
+
 export const CHARACTERS: Character[] = [
   {
     id: 'angelina',
     name: 'Angelina Mango',
     role: 'Artist / Performer',
-    // Placeholder: Female Performer vibe
-    imageUrl: 'https://images.unsplash.com/photo-1516280440614-6697288d5d38?q=80&w=1000&auto=format&fit=crop', 
+    imageUrl: '/angelina.png', 
     description: 'Vocal powerhouse with eclectic style.'
   },
   {
     id: 'ronaldo',
     name: 'Cristiano Ronaldo',
     role: 'Football Legend',
-    // Placeholder: Athlete/Sport vibe
-    imageUrl: 'https://images.unsplash.com/photo-1522778119026-d647f0565c6a?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/ronaldo.png',
     description: 'Global icon of determination and skill.'
   },
   {
     id: 'geolier',
     name: 'Geolier',
     role: 'Rapper / Artist',
-    // Placeholder: Urban/Streetwear vibe
-    imageUrl: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80&w=1000&auto=format&fit=crop',
-    description: ' The voice of the new generation.'
+    imageUrl: '/geolier.png',
+    description: 'The voice of the new generation.'
   },
   {
     id: 'anna',
     name: 'Anna Pepe',
     role: 'Rapper / Icon',
-    // Placeholder: Stylish Female vibe
-    imageUrl: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/anna.png',
     description: 'Setting trends and breaking records.'
   }
 ];
