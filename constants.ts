@@ -11,28 +11,28 @@ export const CHARACTERS: Character[] = [
     id: 'angelina',
     name: 'Angelina Mango',
     role: 'Artist / Performer',
-    imageUrl: '/angelina.png', 
+    imageUrl: 'https://ui-avatars.com/api/?name=Angelina+Mango&size=400&background=00ffaa&color=0a0a0a&bold=true&font-size=0.4',
     description: 'Vocal powerhouse with eclectic style.'
   },
   {
     id: 'ronaldo',
     name: 'Cristiano Ronaldo',
     role: 'Football Legend',
-    imageUrl: '/ronaldo.png',
+    imageUrl: 'https://ui-avatars.com/api/?name=Cristiano+Ronaldo&size=400&background=00a3ff&color=0a0a0a&bold=true&font-size=0.4',
     description: 'Global icon of determination and skill.'
   },
   {
     id: 'geolier',
     name: 'Geolier',
     role: 'Rapper / Artist',
-    imageUrl: '/geolier.png',
+    imageUrl: 'https://ui-avatars.com/api/?name=Geolier&size=400&background=00ffaa&color=0a0a0a&bold=true&font-size=0.4',
     description: 'The voice of the new generation.'
   },
   {
     id: 'anna',
     name: 'Anna Pepe',
     role: 'Rapper / Icon',
-    imageUrl: '/anna.png',
+    imageUrl: 'https://ui-avatars.com/api/?name=Anna+Pepe&size=400&background=00a3ff&color=0a0a0a&bold=true&font-size=0.4',
     description: 'Setting trends and breaking records.'
   }
 ];
