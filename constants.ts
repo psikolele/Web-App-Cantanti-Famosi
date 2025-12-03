@@ -1,9 +1,9 @@
 import { Character } from './types';
 
 // NOTE: Please ensure you save the provided images in your public folder with these filenames:
-// 1. angelina.jpg
+// 1. angelina.png
 // 2. ronaldo.jpg
-// 3. geolier.jpg
+// 3. Geolier.jpg (case sensitive!)
 // 4. anna.jpg
 // If local files are missing, the UI will handle it gracefully.
 
@@ -12,8 +12,7 @@ export const CHARACTERS: Character[] = [
     id: 'angelina',
     name: 'Angelina Mango',
     role: 'Artist / Performer',
-    // Updated to .jpg per user request
-    imageUrl: '/angelina.jpg', 
+    imageUrl: '/angelina.png',
     description: 'Vocal powerhouse with eclectic style.'
   },
   {
@@ -27,7 +26,7 @@ export const CHARACTERS: Character[] = [
     id: 'geolier',
     name: 'Geolier',
     role: 'Rapper / Artist',
-    imageUrl: '/geolier.jpg',
+    imageUrl: '/Geolier.jpg',
     description: 'The voice of the new generation.'
   },
   {
