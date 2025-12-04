@@ -1,7 +1,7 @@
 import { Character } from './types';
 
 // NOTE: Please ensure you save the provided images in your public folder with these filenames:
-// 1. angelina.png
+// 1. angelina.jpg
 // 2. ronaldo.jpg
 // 3. Geolier.jpg (case sensitive!)
 // 4. anna.jpg
@@ -12,7 +12,7 @@ export const CHARACTERS: Character[] = [
     id: 'angelina',
     name: 'Angelina Mango',
     role: 'Artist / Performer',
-    imageUrl: '/angelina.png',
+    imageUrl: '/angelina.jpg',
     description: 'Vocal powerhouse with eclectic style.'
   },
   {
